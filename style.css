@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(235, 222, 222);
+    text-align: center;
+}
+
+.d-box.active {
+    border: 3px solid green;
+}
+
+.d-flex img {
+    width: 100%;
+    height: 100%;
+}
+
+.d-box {
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #eee;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.icon {
+    font-size: 70px;
+    color: green;
+}
+
+button {
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+    margin-top: 10px;
+    color: green;
+    cursor: pointer;
+}
